@@ -166,7 +166,8 @@ namespace SoundtrackEditor
             GameDatabase.Instance.databaseAudio.Add(music.menuTheme);
             GameDatabase.Instance.databaseAudio.Add(music.missionControlAmbience);
             GameDatabase.Instance.databaseAudio.Add(music.researchComplexAmbience);
-            GameDatabase.Instance.databaseAudio.Add(music.spaceCenterAmbience);
+            GameDatabase.Instance.databaseAudio.Add(music.spaceCenterAmbienceDay);
+            GameDatabase.Instance.databaseAudio.Add(music.spaceCenterAmbienceNight);
             GameDatabase.Instance.databaseAudio.Add(music.SPHAmbience);
             GameDatabase.Instance.databaseAudio.Add(music.trackingAmbience);
             GameDatabase.Instance.databaseAudio.Add(music.VABAmbience);
@@ -186,7 +187,8 @@ namespace SoundtrackEditor
             music.menuTheme = emptyTrack;
             music.missionControlAmbience = emptyTrack;
             music.researchComplexAmbience = emptyTrack;
-            music.spaceCenterAmbience = emptyTrack;
+            music.spaceCenterAmbienceDay = emptyTrack;
+            music.spaceCenterAmbienceNight = emptyTrack;
             music.SPHAmbience = emptyTrack;
             music.trackingAmbience = emptyTrack;
             music.VABAmbience = emptyTrack;
@@ -201,7 +203,8 @@ namespace SoundtrackEditor
                 music.menuTheme,
                 music.missionControlAmbience,
                 music.researchComplexAmbience,
-                music.spaceCenterAmbience,
+                music.spaceCenterAmbienceDay,
+                music.spaceCenterAmbienceNight,
                 music.SPHAmbience,
                 music.trackingAmbience,
                 music.VABAmbience
